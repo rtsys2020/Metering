@@ -1,0 +1,89 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;/******************************************************
+                       ***********************
+    2 00000000         ; * @file:    startup_LPC177x_8x.s
+    3 00000000         ; * @purpose: CMSIS Cortex-M3 Core Device Startup File
+    4 00000000         ; *           for the NXP LPC177x_8x Device Series 
+    5 00000000         ; * @version: V1.20
+    6 00000000         ; * @date:    07. October 2010
+    7 00000000         ; *
+    8 00000000         ; * Copyright (C) 2010 ARM Limited. All rights reserved.
+                       
+    9 00000000         ; * ARM Limited (ARM) is supplying this software for use
+                        with Cortex-M3
+   10 00000000         ; * processor based microcontrollers.  This file can be 
+                       freely distributed
+   11 00000000         ; * within development tools that are supporting such AR
+                       M based processors.
+   12 00000000         ; *
+   13 00000000         ; * THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, W
+                       HETHER EXPRESS, IMPLIED
+   14 00000000         ; * OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED
+                        WARRANTIES OF
+   15 00000000         ; * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+                        APPLY TO THIS SOFTWARE.
+   16 00000000         ; * ARM SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR S
+                       PECIAL, INCIDENTAL, OR
+   17 00000000         ; * CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
+   18 00000000         ; *
+   19 00000000         ; ******************************************************
+                       ***********************/
+   20 00000000         
+   21 00000000         
+   22 00000000 00040000 
+                       IntGlobalVal_Size
+                               EQU              0x000040000
+   23 00000000         
+   24 00000000                 AREA             GlobalVal, NOINIT, READWRITE, A
+LIGN=4
+   25 00000000         __GlobalValStartAdd
+                               SPACE            IntGlobalVal_Size
+   26 00040000                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\obj\he
+apstack.d -o.\obj\heapstack.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Includ
+e -IC:\Keil\ARM\Inc\NXP\LPC177x_8x --predefine="__MICROLIB SETA 1" --list=.\lis
+t\heapstack.lst ..\USER\heapstack.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+GlobalVal 00000000
+
+Symbol: GlobalVal
+   Definitions
+      At line 24 in file ..\USER\heapstack.s
+   Uses
+      None
+Comment: GlobalVal unused
+__GlobalValStartAdd 00000000
+
+Symbol: __GlobalValStartAdd
+   Definitions
+      At line 25 in file ..\USER\heapstack.s
+   Uses
+      None
+Comment: __GlobalValStartAdd unused
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+IntGlobalVal_Size 00040000
+
+Symbol: IntGlobalVal_Size
+   Definitions
+      At line 22 in file ..\USER\heapstack.s
+   Uses
+      At line 25 in file ..\USER\heapstack.s
+Comment: IntGlobalVal_Size used once
+1 symbol
+334 symbols in table

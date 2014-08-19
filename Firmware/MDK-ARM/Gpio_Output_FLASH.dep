@@ -1,0 +1,1450 @@
+Dependencies for Project 'Gpio_Output', Target 'FLASH': (DO NOT MODIFY !)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x_8x.s)(0x53C75E6C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x--list .\flash\startup_lpc177x_8x.lst --xref -o .\flash\startup_lpc177x_8x.o --depend .\flash\startup_lpc177x_8x.d)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Source\Templates\system_LPC177x_8x.c)(0x53C81934)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\system_lpc177x_8x.o --omf_browse .\flash\system_lpc177x_8x.crf --depend .\flash\system_lpc177x_8x.d)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\debug_frmwrk.c)(0x529CB0E2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\debug_frmwrk.o --omf_browse .\flash\debug_frmwrk.crf --depend .\flash\debug_frmwrk.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_clkpwr.c)(0x50169694)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_clkpwr.o --omf_browse .\flash\lpc177x_8x_clkpwr.crf --depend .\flash\lpc177x_8x_clkpwr.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_exti.c)(0x52B1694A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_exti.o --omf_browse .\flash\lpc177x_8x_exti.crf --depend .\flash\lpc177x_8x_exti.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_gpdma.c)(0x5354E824)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_gpdma.o --omf_browse .\flash\lpc177x_8x_gpdma.crf --depend .\flash\lpc177x_8x_gpdma.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_gpio.c)(0x52D4F6D8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_gpio.o --omf_browse .\flash\lpc177x_8x_gpio.crf --depend .\flash\lpc177x_8x_gpio.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_i2c.c)(0x530C6D6A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_i2c.o --omf_browse .\flash\lpc177x_8x_i2c.crf --depend .\flash\lpc177x_8x_i2c.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_mci.c)(0x53C770D2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_mci.o --omf_browse .\flash\lpc177x_8x_mci.crf --depend .\flash\lpc177x_8x_mci.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\IRQ_Handeler\inc\DMA_Handeler.h)(0x53C77006)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_pinsel.c)(0x50169694)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_pinsel.o --omf_browse .\flash\lpc177x_8x_pinsel.crf --depend .\flash\lpc177x_8x_pinsel.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_pwm.c)(0x5309D1DA)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_pwm.o --omf_browse .\flash\lpc177x_8x_pwm.crf --depend .\flash\lpc177x_8x_pwm.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_rtc.c)(0x53CA684A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_rtc.o --omf_browse .\flash\lpc177x_8x_rtc.crf --depend .\flash\lpc177x_8x_rtc.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_ssp.c)(0x52CD6D1A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_ssp.o --omf_browse .\flash\lpc177x_8x_ssp.crf --depend .\flash\lpc177x_8x_ssp.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_systick.c)(0x50169694)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_systick.o --omf_browse .\flash\lpc177x_8x_systick.crf --depend .\flash\lpc177x_8x_systick.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_systick.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_uart.c)(0x538AD412)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_uart.o --omf_browse .\flash\lpc177x_8x_uart.crf --depend .\flash\lpc177x_8x_uart.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+F (..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\lpc177x_8x_wwdt.c)(0x50169694)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\lpc177x_8x_wwdt.o --omf_browse .\flash\lpc177x_8x_wwdt.crf --depend .\flash\lpc177x_8x_wwdt.d)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+F (..\USER\main.c)(0x53E373DC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\..\Core\CM3\DeviceSupport\NXP\LPC17xx -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\User_App\user_bsp.c)(0x53F2FDEE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\user_bsp.o --omf_browse .\flash\user_bsp.crf --depend .\flash\user_bsp.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\ADE7953\inc\ade7953_i2c_driver.h)(0x53F2FBD4)
+I (C:\Project\Metering\Firmware\USER\common\inc\i3c.h)(0x53E37674)
+I (C:\Project\Metering\Firmware\USER\Flash-RTC\inc\flashrtc.h)(0x53E376B0)
+I (C:\Project\Metering\Firmware\USER\common\inc\record.h)(0x53C770D8)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+I (C:\Project\Metering\Firmware\USER\ADE7953\inc\ade7953_spi_driver.h)(0x53F06532)
+I (C:\Project\Metering\Firmware\USER\IRQ_Handeler\inc\EXTIT_Handeler.h)(0x53F2FE04)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+F (..\USER\User_App\user_bsp.h)(0x53E49FE0)()
+F (..\USER\Tasks\inc\DailyMeterRecord.h)(0x53E36E98)()
+F (..\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)()
+F (..\USER\SwitchPin\inc\switchpin.h)(0x53E374F8)()
+F (..\USER\SwitchPin\src\switchpin.c)(0x53E37528)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\switchpin.o --omf_browse .\flash\switchpin.crf --depend .\flash\switchpin.d)
+I (C:\Project\Metering\Firmware\USER\common\inc\switchpin.h)(0x53B106B6)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)()
+F (..\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu_a.asm)(0x4D41102A)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x--list .\flash\os_cpu_a.lst --xref -o .\flash\os_cpu_a.o --depend .\flash\os_cpu_a.d)
+F (..\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu_c.c)(0x53C779F8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_cpu_c.o --omf_browse .\flash\os_cpu_c.crf --depend .\flash\os_cpu_c.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_dbg.c)(0x4CD78048)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_dbg.o --omf_browse .\flash\os_dbg.crf --depend .\flash\os_dbg.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_core.c)(0x4CD7815A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_core.o --omf_browse .\flash\os_core.crf --depend .\flash\os_core.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_flag.c)(0x4CD7816C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_flag.o --omf_browse .\flash\os_flag.crf --depend .\flash\os_flag.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_mbox.c)(0x4CD78174)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_mbox.o --omf_browse .\flash\os_mbox.crf --depend .\flash\os_mbox.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_mem.c)(0x4CD7817A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_mem.o --omf_browse .\flash\os_mem.crf --depend .\flash\os_mem.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_mutex.c)(0x4CD78186)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_mutex.o --omf_browse .\flash\os_mutex.crf --depend .\flash\os_mutex.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_q.c)(0x4CD78190)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_q.o --omf_browse .\flash\os_q.crf --depend .\flash\os_q.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_sem.c)(0x4CD78194)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_sem.o --omf_browse .\flash\os_sem.crf --depend .\flash\os_sem.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_task.c)(0x53C77B9C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_task.o --omf_browse .\flash\os_task.crf --depend .\flash\os_task.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_time.c)(0x4CD7819C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_time.o --omf_browse .\flash\os_time.crf --depend .\flash\os_time.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_tmr.c)(0x53C82236)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_tmr.o --omf_browse .\flash\os_tmr.crf --depend .\flash\os_tmr.d)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+F (..\USER\uC-OSII\uCOS-II\Source\os_cfg_r.h)(0x4C06A42E)()
+F (..\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)()
+F (..\USER\uC-OSII\ucCos_App\OS_AppHooks.c)(0x4C72B47A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\os_apphooks.o --omf_browse .\flash\os_apphooks.crf --depend .\flash\os_apphooks.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\uC-OSII\ucCos_App\os_cfg.h)(0x53C82228)()
+F (..\USER\Tasks\src\ApplicatonTask.c)(0x53F2FF84)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\applicatontask.o --omf_browse .\flash\applicatontask.crf --depend .\flash\applicatontask.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\DestuffingTask.h)(0x53C76CA4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\hdlctask.h)(0x53C77D8C)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\HDLC\inc\hdlc.h)(0x53C2482C)
+I (C:\Project\Metering\Firmware\USER\common\inc\setting.h)(0x53C77DF4)
+I (C:\Project\Metering\Firmware\USER\common\inc\uart.h)(0x53B900B0)
+I (C:\Project\Metering\Firmware\USER\common\inc\memory.h)(0x52E0C0C6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ff.h)(0x534113BA)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ffconf.h)(0x536B1FA8)
+I (C:\Project\Metering\Firmware\USER\common\inc\record.h)(0x53C770D8)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_crc.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\StuffingTask.h)(0x53ABB372)
+F (..\USER\Tasks\src\DailyMeterRecord.c)(0x53E37002)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\dailymeterrecord.o --omf_browse .\flash\dailymeterrecord.crf --depend .\flash\dailymeterrecord.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\DailyMeterRecord.h)(0x53E36E98)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+F (..\USER\Tasks\src\LimitAndManageBar.c)(0x53E3756C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\limitandmanagebar.o --omf_browse .\flash\limitandmanagebar.crf --depend .\flash\limitandmanagebar.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\LimitAndManageBar.h)(0x53E33076)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\IHD_Task.c)(0x53E4E4A2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ihd_task.o --omf_browse .\flash\ihd_task.crf --depend .\flash\ihd_task.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\IHD_Task.h)(0x53E2EAD2)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\AlarmMangment.c)(0x53E375B6)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\alarmmangment.o --omf_browse .\flash\alarmmangment.crf --depend .\flash\alarmmangment.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\loadprofil_task.c)(0x53E375C8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\loadprofil_task.o --omf_browse .\flash\loadprofil_task.crf --depend .\flash\loadprofil_task.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\loadprofil_task.h)(0x53E36D62)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+F (..\USER\Tasks\src\sourceonoff.c)(0x53E3A8F4)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\sourceonoff.o --omf_browse .\flash\sourceonoff.crf --depend .\flash\sourceonoff.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\sourceonoff.h)(0x53E3A8B4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\tariff_task.c)(0x53E4E8A0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\tariff_task.o --omf_browse .\flash\tariff_task.crf --depend .\flash\tariff_task.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\tariff_task.h)(0x53E4E872)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53E4E760)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\dummyTask.c)(0x53F06D04)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\dummytask.o --omf_browse .\flash\dummytask.crf --depend .\flash\dummytask.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\Tasks\src\IRQHandelTask.c)(0x53F2FF6A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\irqhandeltask.o --omf_browse .\flash\irqhandeltask.crf --depend .\flash\irqhandeltask.d)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F2FFC4)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\autenticationTask.h)(0x53C76CCC)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+F (..\USER\common\src\ssp_driver.c)(0x53E3761C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ssp_driver.o --omf_browse .\flash\ssp_driver.crf --depend .\flash\ssp_driver.d)
+I (C:\Project\Metering\Firmware\USER\common\inc\ssp_driver.h)(0x53ED54F6)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\common\src\i3c.c)(0x53E3765C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\i3c.o --omf_browse .\flash\i3c.crf --depend .\flash\i3c.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\common\inc\i3c.h)(0x53E37674)
+F (..\USER\Flash-RTC\src\at45db32.c)(0x53EBF54C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\at45db32.o --omf_browse .\flash\at45db32.crf --depend .\flash\at45db32.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Flash-RTC\inc\at45db32.h)(0x53ED54F8)
+I (C:\Project\Metering\Firmware\USER\common\inc\record.h)(0x53C770D8)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\common\inc\ssp_driver.h)(0x53ED54F6)
+F (..\USER\Flash-RTC\inc\at45db32.h)(0x53ED54F8)()
+F (..\USER\RTC\src\RTC_BSP.c)(0x53E376C8)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\rtc_bsp.o --omf_browse .\flash\rtc_bsp.crf --depend .\flash\rtc_bsp.d)
+I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53E376E8)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\DailyMeterRecord.h)(0x53E36E98)
+F (..\USER\ADE7953\src\ade7953_i2c_driver.c)(0x53F2FE4C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ade7953_i2c_driver.o --omf_browse .\flash\ade7953_i2c_driver.crf --depend .\flash\ade7953_i2c_driver.d)
+I (C:\Project\Metering\Firmware\USER\ADE7953\inc\ade7953_i2c_driver.h)(0x53F2FBD4)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\User_App\user_bsp.h)(0x53E49FE0)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+I (C:\Project\Metering\Firmware\USER\IRQ_Handeler\inc\EXTIT_Handeler.h)(0x53F2FE04)
+F (..\USER\ADE7953\src\ADE7953_spi_driver.c)(0x53F2F3FC)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ade7953_spi_driver.o --omf_browse .\flash\ade7953_spi_driver.crf --depend .\flash\ade7953_spi_driver.d)
+I (C:\Project\Metering\Firmware\USER\ADE7953\inc\ade7953_spi_driver.h)(0x53F06532)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\manipulate\manipulate.c)(0x53E3734C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\manipulate.o --omf_browse .\flash\manipulate.crf --depend .\flash\manipulate.d)
+I (C:\Project\Metering\Firmware\USER\manipulate\manipulate.h)(0x53E373B0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+F (..\USER\fatfs\diskio.c)(0x53C77318)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\diskio.o --omf_browse .\flash\diskio.crf --depend .\flash\diskio.d)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\diskio.h)(0x52A46C30)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\sdcard.h)(0x529DC2F2)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+F (..\USER\fatfs\ff.c)(0x53411370)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ff.o --omf_browse .\flash\ff.crf --depend .\flash\ff.d)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ff.h)(0x534113BA)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ffconf.h)(0x536B1FA8)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\diskio.h)(0x52A46C30)
+F (..\USER\fatfs\filesystem.c)(0x5326C8A0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\filesystem.o --omf_browse .\flash\filesystem.crf --depend .\flash\filesystem.d)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\filesystem.h)(0x535614AE)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ffconf.h)(0x536B1FA8)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ff.h)(0x534113BA)
+I (C:\Project\Metering\Firmware\USER\common\inc\record.h)(0x53C770D8)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+F (..\USER\fatfs\fs_mci.c)(0x53E4EBBE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\fs_mci.o --omf_browse .\flash\fs_mci.crf --depend .\flash\fs_mci.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\diskio.h)(0x52A46C30)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\sdcard.h)(0x529DC2F2)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\rtc_cfg.h)(0x52A56606)
+F (..\USER\fatfs\rtc_cfg.c)(0x52A5B710)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\rtc_cfg.o --omf_browse .\flash\rtc_cfg.crf --depend .\flash\rtc_cfg.d)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\rtc_cfg.h)(0x52A56606)
+F (..\USER\fatfs\option\ccsbcs.c)(0x53411846)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ccsbcs.o --omf_browse .\flash\ccsbcs.crf --depend .\flash\ccsbcs.d)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ff.h)(0x534113BA)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ffconf.h)(0x536B1FA8)
+F (..\USER\fatfs\option\syscall.c)(0x53411850)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\syscall.o --omf_browse .\flash\syscall.crf --depend .\flash\syscall.d)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ff.h)(0x534113BA)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\ffconf.h)(0x536B1FA8)
+F (..\USER\IRQ_Handeler\src\EXTIT_Handeler.c)(0x53F2FF0A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\extit_handeler.o --omf_browse .\flash\extit_handeler.crf --depend .\flash\extit_handeler.d)
+I (C:\Project\Metering\Firmware\USER\IRQ_Handeler\inc\EXTIT_Handeler.h)(0x53F2FE04)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F2FFE6)
+F (..\USER\IRQ_Handeler\src\GPIO_IRQHandler.c)(0x53F05FF0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\gpio_irqhandler.o --omf_browse .\flash\gpio_irqhandler.crf --depend .\flash\gpio_irqhandler.d)
+I (C:\Project\Metering\Firmware\USER\IRQ_Handeler\inc\GPIO_Handeler.h)(0x53F06006)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E3740E)
+I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\ctype.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\stdarg.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\ARMCC\include\math.h)(0x51C819B4)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Source\ucos_ii.h)(0x4D410A6E)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\app_cfg.h)(0x53C81FD0)
+I (C:\Project\Metering\Firmware\USER\ucCos_App\os_cfg.h)(0x53B930FC)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uCOS-II\Ports\ARM-Cortex-M3\RealView\os_cpu.h)(0x5360ED4E)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x53C77F6A)
+I (C:\Project\Metering\Firmware\USER\uC-OSII\uC-CPU\cpu_def.h)(0x48975F7A)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h)(0x50169694)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h)(0x51C817BA)
+I (C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h)(0x51C817BA)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_clkpwr.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\system_LPC177x_8x.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpio.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_mci.h)(0x53C4C006)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_gpdma.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_rtc.h)(0x52C03A10)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_emc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_i2c.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_exti.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_adc.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_dac.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_timer.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pwm.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_wwdt.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h)(0x5291C936)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x50169694)
+I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x50169694)
+I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231F8E6)
