@@ -10,6 +10,8 @@
 #include "applicationtask.h"
 #include "includes.h"
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
+#include "alarmmangment.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -22,9 +24,9 @@
 
 static  void  Dummy_TaskStart (void *p_arg);
 
-#define DUMMY_QEUEU_SIZE	5
+
 #define DUMMY_STK_SIZE	128
-#define DUMMY_TASK_PRIO	15
+#define DUMMY_TASK_PRIO	20
 /*
 *********************************************************************************************************
 *                                            TASK STACK SIZES
@@ -33,14 +35,61 @@ static  void  Dummy_TaskStart (void *p_arg);
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *Dummy_Q; 
-void *Dummy_QList[DUMMY_QEUEU_SIZE];
 
 OS_STK        Dummy_TaskStartStk[DUMMY_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
 /** @defgroup Private Variable
  * @{
  */
+ 
+ /*********************************************************************//**
+ * @author   
+ * @brief 	
+ * @date 
+ * @version  1.0
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+void Dummy_SendSingnal(void)
+{
+	uint8_t err;
+	static uint8_t msg;
+	msg = 1;
+	err = OSQPost(Dummy_Q,&msg);
+}
+
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  1.0
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+Status Dummy_SetAlarmTime(RTC_TIME_Type* fulltime)
+{
+	alarm_t alarm;
+	
+	if(fulltime != NULL)
+	{
+		alarm.EnDis = ENABLE;
+		alarm.mask = 0x0000000000FFFF;
+		alarm.t1.day = 0;
+		alarm.t1.hour = fulltime->HOUR;
+		alarm.t1.min = fulltime->MIN;
+		alarm.fun = Dummy_SendSingnal;
+		Alarm_MGN(&alarm,ALARM_DUMMY);
+		//memcpy(&dailyMeterTime[src],fulltime,sizeof(RTC_TIME_Type));
+		return SUCCESS;
+	}
+	return ERROR;
+}
 
 
 /*********************************************************************//**
@@ -62,11 +111,8 @@ void Dummy_initial(void)
 	
 	
 	time.HOUR  = 00;
-	time.MIN = 00;
-	
-//	dailyMeterSem = OSSemCreate(0);
-	Dummy_Q = OSQCreate(Dummy_QList,DUMMY_QEUEU_SIZE);
-	
+	time.MIN = 01;
+	Dummy_SetAlarmTime(&time);
 	
 	os_err = OSTaskCreateExt((void (*)(void *)) Dummy_TaskStart,  /* Create the start task.                               */
                              (void          * ) 0,
@@ -103,7 +149,11 @@ static  void  Dummy_TaskStart (void *p_arg)
 	for(;;)
    	{
 			//wait for signal to start calculate avarage load
-			
+			OSQPend(Dummy_Q,0,&err);
+			if(err == OS_ERR_NONE)
+			{
+					//do somthing
+			}
 
     }	
 }

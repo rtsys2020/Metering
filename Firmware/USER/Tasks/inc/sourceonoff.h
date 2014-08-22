@@ -29,11 +29,11 @@
 */
 
 //<o> Limit and manage load Task Priority
-#define SRC_ON_OFF_TASK_PRIO 12
+#define SRC_ON_OFF_TASK_PRIO 16
 //<o> Daily Meter TaskStack Size
 #define SRC_ON_OFF_STK_SIZE 64
 
-#define SRC_ON_OFF_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -60,7 +60,7 @@
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
-
+void SourceOnOff_initial(void);
 void SrcOnOff_SendOn(void);
 void SrcOnOff_SendOff(void);
 #endif

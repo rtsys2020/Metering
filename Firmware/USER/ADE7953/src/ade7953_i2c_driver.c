@@ -14,12 +14,11 @@
 #include "user_bsp.h"
 #include "irqhandlertask.h"
 #include "EXTIT_Handeler.h"
-__IO Bool complete;
+#include "inc\ade7953_spi_driver.h"
 
+__IO complete;
 
-#define ADE7953_IRQA_PORT	2
-#define ADE7953_IRQA_PIN	10
-#define ADE7953_IRQA_FUNC_NUM	1
+void ADE7953_Reset(void);
 
 /*********************************************************************//**
  * @auther s.rezaee
@@ -54,10 +53,11 @@ void ADE7953_I2C_Inititial(void)
 	EINT_init_t eint_irqa;
 	static IRQ_msg_t ade_irqa;
 	EXTI_InitTypeDef exti_cfg;
+	uint32_t data;
 	
 	exti_cfg.EXTI_Line = EXTI_EINT0;
 	exti_cfg.EXTI_Mode = EXTI_MODE_EDGE_SENSITIVE;
-	exti_cfg.EXTI_polarity = EXTI_POLARITY_HIGH_ACTIVE_OR_RISING_EDGE;
+	exti_cfg.EXTI_polarity = EXTI_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE;
 	
 	ade_irqa.src = ADE7953_IRQA_SRC;
 	ade_irqa.fun = ADE7953_IRQA_Handler;
@@ -65,9 +65,10 @@ void ADE7953_I2C_Inititial(void)
 	eint_irqa.port = ADE7953_IRQA_PORT;
 	eint_irqa.pin = ADE7953_IRQA_PIN;
 	eint_irqa.func_num = ADE7953_IRQA_FUNC_NUM;
+	eint_irqa.eint_num = 0;
 	eint_irqa.irq_msg = &ade_irqa;
 	eint_irqa.exti_cfg = &exti_cfg;
-	EINT_BSP_Init(&eint_irqa);
+	
 	
 #if ((ADE_7953_I2C == 0))
 	PINSEL_ConfigPin (ADE_7953_I2C_SDA_PORT, ADE_7953_I2C_SDA_PIN, ADE_7953_I2C_FUNNUM);
@@ -97,6 +98,30 @@ void ADE7953_I2C_Inititial(void)
 	//I2C_Cmd(ADE_7953_I2C_I2C,I2C_MASTER_MODE,ENABLE);
 	I2C_Cmd(ADE_7953_I2C,I2C_GENERAL_MODE,ENABLE);
 	
+	ADE7953_Reset();
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQENA_REG,(uint8_t*)&data);//IRQENA
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQSTATA_REG,(uint8_t*)&data);//IRQSTATA
+	ADE7953_I2C_Read_24_Bit(ADE7953_RSTIRQSTATA_REG,(uint8_t*)&data);//RSTIRQSTATA
+
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQENB_REG     ,(uint8_t*)&data);//IRQENA
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQSTATB_REG   ,(uint8_t*)&data);//IRQSTATA
+	ADE7953_I2C_Read_24_Bit(ADE7953_RSTIRQSTATB_REG,(uint8_t*)&data);//RSTIRQSTATA
+	
+	EINT_BSP_Init(&eint_irqa);
+	
+	exti_cfg.EXTI_Line = EXTI_EINT1;
+	exti_cfg.EXTI_Mode = EXTI_MODE_EDGE_SENSITIVE;
+	exti_cfg.EXTI_polarity = EXTI_POLARITY_LOW_ACTIVE_OR_FALLING_EDGE;
+	
+	ade_irqa.src = ADE7953_IRQB_SRC;
+	ade_irqa.fun = ADE7953_IRQB_Handler;
+	eint_irqa.port = ADE7953_IRQB_PORT;
+	eint_irqa.pin = ADE7953_IRQB_PIN;
+	eint_irqa.func_num = ADE7953_IRQB_FUNC_NUM;
+	eint_irqa.eint_num = 1;
+	eint_irqa.irq_msg = &ade_irqa;
+	eint_irqa.exti_cfg = &exti_cfg;
+	EINT_BSP_Init(&eint_irqa);
 }  
 
 
@@ -109,7 +134,7 @@ void ADE7953_I2C_Inititial(void)
  * @return 			SUCCESS or ERROR	             
  *                         
  **********************************************************************/
- Status ADE7953_i2c_write(uint8_t slvAdd,uint16_t reg, unsigned char *data,uint8_t len)   
+ Status ADE7953_i2c_write(uint8_t slvAdd,uint16_t reg, uint8_t *data,uint8_t len)   
 {   
 	I2C_M_SETUP_Type transferMCfg;
 	__IO uint8_t Master_Buf[8],i;
@@ -150,7 +175,7 @@ void ADE7953_I2C_Inititial(void)
  * @return 				             
  *                         
  **********************************************************************/   
- Status ADE7953_i2c_Read(uint8_t slvAdd,uint16_t reg, unsigned char *data,uint8_t len)   
+ Status ADE7953_i2c_Read(uint8_t slvAdd,uint16_t reg, uint8_t *data,uint8_t len)   
 {   
 
 	I2C_M_SETUP_Type transferMCfg;
@@ -202,10 +227,49 @@ void ADE7953_I2C_Inititial(void)
  * @description 
  * @param[in]		None.
  * @param[out]		None.
- * @return 				             
- *                         
+ * @return 				                            
  **********************************************************************/   
 void ADE7953_IRQA_Handler(void)
 {
+	uint32_t irqena,irqstat,rstirqstat;
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQENA_REG,(uint8_t*)&irqena);//IRQENA
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQSTATA_REG,(uint8_t*)&irqstat);//IRQSTATA
+	ADE7953_I2C_Read_24_Bit(ADE7953_RSTIRQSTATA_REG,(uint8_t*)&rstirqstat);//RSTIRQSTATA
+	
+	//add a switch case for test flag
+}
 
+/*********************************************************************//**
+ * @auther 
+ * @brief 			
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				                            
+ **********************************************************************/   
+void ADE7953_IRQB_Handler(void)
+{
+	uint32_t irqen,irqstat,rstirqstat;
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQENB_REG     ,(uint8_t*)&irqen);//IRQENA
+	ADE7953_I2C_Read_24_Bit(ADE7953_IRQSTATB_REG   ,(uint8_t*)&irqstat);//IRQSTATA
+	ADE7953_I2C_Read_24_Bit(ADE7953_RSTIRQSTATB_REG,(uint8_t*)&rstirqstat);//RSTIRQSTATA
+	
+	//add a switch case for test flag
+}
+/*********************************************************************//**
+ * @auther 
+ * @brief 			
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/ 
+void ADE7953_Reset(void)
+{
+	int i;
+	
+	ADE7953_RESET_LOW();
+	for(i=0;i<0xa0000;i++);
+	ADE7953_RESET_HIGH();
 }

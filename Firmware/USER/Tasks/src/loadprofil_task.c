@@ -13,6 +13,7 @@
 #include "loadprofil_task.h" 
 #include "inc\rtc_bsp.h"
 #include "alarmmangment.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -36,8 +37,6 @@ static CallFunAlarm alarm_Func[]={LoadProfilSendSignalGaz,LoadProfilSendSignalWa
 */
 
 //OS_EVENT *LoadProfilSem;
-OS_EVENT *loadProfilQ; 
-void *loadProfilQList[LOAD_PROFIL_QEUEU_SIZE];
 
 OS_STK        LOAD_PROFIL_TaskStartStk[LOAD_PROFIL_TASK_START_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -171,7 +170,7 @@ void LoadProfilTask_initial(void)
 	time.MIN = 59;
 	
 //	LoadProfilSem = OSSemCreate(0);
-	loadProfilQ = OSQCreate(loadProfilQList,LOAD_PROFIL_QEUEU_SIZE);
+
 	
 	LoadProfilSetAlarmTime(&time,LOAD_GAZ);
 	LoadProfilSetAlarmTime(&time,LOAD_WATER);

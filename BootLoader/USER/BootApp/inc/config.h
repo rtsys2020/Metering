@@ -1,0 +1,10 @@
+#ifndef _CONFIG_H
+#define _CONFIG_H
+
+#define DEFAULT_RUN_ADDR	0x2000
+#define DEFAULT_PROG_ADDR 0x2000
+#define INVALID_RESULT 0xFFFFFFFF
+#define IAP_BUF_SIZE 1024
+
+#define UARTX LPC_UART3
+#endif

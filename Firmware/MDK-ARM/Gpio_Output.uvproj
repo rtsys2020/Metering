@@ -629,20 +629,40 @@
               <FileType>5</FileType>
               <FilePath>..\USER\Tasks\inc\applicationtask.h</FilePath>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>SwitchPin</GroupName>
-          <Files>
             <File>
-              <FileName>switchpin.h</FileName>
+              <FileName>AlarmMangment.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\USER\SwitchPin\inc\switchpin.h</FilePath>
+              <FilePath>..\USER\Tasks\inc\AlarmMangment.h</FilePath>
             </File>
             <File>
-              <FileName>switchpin.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\USER\SwitchPin\src\switchpin.c</FilePath>
+              <FileName>IHD_Task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\IHD_Task.h</FilePath>
+            </File>
+            <File>
+              <FileName>irqhandlertask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\irqhandlertask.h</FilePath>
+            </File>
+            <File>
+              <FileName>LimitAndManageBar.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\LimitAndManageBar.h</FilePath>
+            </File>
+            <File>
+              <FileName>loadprofil_task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\loadprofil_task.h</FilePath>
+            </File>
+            <File>
+              <FileName>sourceonoff.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\sourceonoff.h</FilePath>
+            </File>
+            <File>
+              <FileName>tariff_task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\tariff_task.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -818,6 +838,11 @@
               <FileName>i3c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\common\src\i3c.c</FilePath>
+            </File>
+            <File>
+              <FileName>osinital.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\osinital.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1439,20 +1464,40 @@
               <FileType>5</FileType>
               <FilePath>..\USER\Tasks\inc\applicationtask.h</FilePath>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>SwitchPin</GroupName>
-          <Files>
             <File>
-              <FileName>switchpin.h</FileName>
+              <FileName>AlarmMangment.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\USER\SwitchPin\inc\switchpin.h</FilePath>
+              <FilePath>..\USER\Tasks\inc\AlarmMangment.h</FilePath>
             </File>
             <File>
-              <FileName>switchpin.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\USER\SwitchPin\src\switchpin.c</FilePath>
+              <FileName>IHD_Task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\IHD_Task.h</FilePath>
+            </File>
+            <File>
+              <FileName>irqhandlertask.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\irqhandlertask.h</FilePath>
+            </File>
+            <File>
+              <FileName>LimitAndManageBar.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\LimitAndManageBar.h</FilePath>
+            </File>
+            <File>
+              <FileName>loadprofil_task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\loadprofil_task.h</FilePath>
+            </File>
+            <File>
+              <FileName>sourceonoff.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\sourceonoff.h</FilePath>
+            </File>
+            <File>
+              <FileName>tariff_task.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\USER\Tasks\inc\tariff_task.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -1628,6 +1673,11 @@
               <FileName>i3c.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\common\src\i3c.c</FilePath>
+            </File>
+            <File>
+              <FileName>osinital.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\osinital.c</FilePath>
             </File>
           </Files>
         </Group>

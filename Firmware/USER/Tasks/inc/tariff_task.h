@@ -30,11 +30,11 @@
 */
 
 //<o> Limit and manage load Task Priority
-#define TARIFF_TASK_PRIO 12
+#define TARIFF_TASK_PRIO 17
 //<o> Daily Meter TaskStack Size
 #define TARIFF_STK_SIZE 64
 
-#define TARIFF_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -65,6 +65,7 @@ typedef struct
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
+void Tariff_initial(void);
 uint8_t Tariff_WaitForSignal(uint8_t *msg);
 Status Tariff_SetAlarmTime(RTC_TIME_Type* fulltime);
 void Tariff_Table_Update(tariff_t* table);

@@ -12,6 +12,7 @@
 #include "tariff_task.h" 
 #include "alarmmangment.h"
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -33,8 +34,6 @@ static  void  Tariff_TaskStart (void *p_arg);
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *Tariff_Q; 
-void *Tariff_QList[TARIFF_QEUEU_SIZE];
 
 OS_STK        Tariff_TaskStartStk[TARIFF_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -164,7 +163,7 @@ void Tariff_initial(void)
 	time.MIN = 00;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	Tariff_Q = OSQCreate(Tariff_QList,TARIFF_QEUEU_SIZE);
+
 	
 	Tariff_SetAlarmTime(&time);
 	

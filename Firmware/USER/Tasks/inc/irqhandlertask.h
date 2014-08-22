@@ -25,15 +25,16 @@
 
 static  void  IRQ_TaskStart (void *p_arg);
 
-#define IRQ_QEUEU_SIZE	5
+
 #define IRQ_STK_SIZE	128
 #define IRQ_TASK_PRIO	15
 
-extern OS_EVENT *IRQ_Q;
+
 
 typedef enum
 {
-	ADE7953_IRQA_SRC
+	ADE7953_IRQA_SRC,
+	ADE7953_IRQB_SRC
 }IRQ_src_t;
 
 typedef void (*irqfunp)(void);

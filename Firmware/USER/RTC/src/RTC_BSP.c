@@ -14,15 +14,11 @@
  */
 #include "inc\rtc_bsp.h"
 #include "DailyMeterRecord.h"
+#include "alarmmangment.h" 
 /* Private Variables ---------------------------------------------------------- */
 /** @defgroup Private Variable
  * @{
  */
- 
-funp funSecCounter;
-funp funMinCounter;
-funp funHourCounter;
-
 
 
 unsigned int  SolarLeapYears[16] = {1375, 1379, 1383, 1387, 1391, 1395, 1399, 1404, 1408, 1412, 1416, 1420, 1424, 1428, 1432, 0}; //solar range 1380,1430
@@ -38,8 +34,9 @@ unsigned char SolarMonthLen[13] = {0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30
  */
 /* End of Private Variables ----------------------------------------------------*/ 
 
-
-
+volatile RTC_ER_TIMESTAMP_Type FirstTimeStamp[3];
+volatile RTC_ER_TIMESTAMP_Type LastTimeStamp[3];
+volatile uint8_t evt_cnt[3];
 
 /*********************************************************************//**
  * @author             
@@ -56,46 +53,20 @@ void RTC_IRQHandler(void)
 {
 	uint32_t counterIncSt;
 	RTC_TIME_Type fullTime;
+	uint32_t er_status;
 	
 	/* This is increment counter interrupt*/
 	if (RTC_GetIntPending(LPC_RTC, RTC_INT_COUNTER_INCREASE))
 	{
 		counterIncSt = LPC_RTC->CIIR;
-
-		if(counterIncSt & RTC_CIIR_IMSEC)
-		{
-			//interrupt on Secend
-			funSecCounter();
-			return;
-		}
-		funMinCounter();
+		RTC_IRQ_SendSignal();
+//		if(counterIncSt & RTC_CIIR_IMMIN)
+//			funMinCounter();
 //		RTC_GetFullTime(LPC_RTC,&fullTime);
 //		DailyMeterSendSignal(&fullTime,GAZ);
 //		DailyMeterSendSignal(&fullTime,WATER);
 //		DailyMeterSendSignal(&fullTime,ELECTRICITY);
 		
-//		if(counterIncSt & RTC_CIIR_IMMIN)
-//		{
-//			//interrupt on Minute
-//			//funMinCounter();
-//		}
-//		else if(counterIncSt & RTC_CIIR_IMHOUR)
-//		{
-//			//interrupt on Hour
-//			//funHourCounter();
-//		}
-//		else if(counterIncSt & RTC_CIIR_IMDOM)
-//		{
-//			//interrupt on Day of Month
-//		}
-//		else if(counterIncSt & RTC_CIIR_IMMON)
-//		{
-//			//interrupt on Month
-//		}
-//		else if(counterIncSt & RTC_CIIR_IMYEAR)
-//		{
-//			//interrupt on Year
-//		}		
 		// Clear pending interrupt
 		RTC_ClearIntPending(LPC_RTC, RTC_INT_COUNTER_INCREASE);
 	}
@@ -103,23 +74,37 @@ void RTC_IRQHandler(void)
 	/* Continue to check the Alarm match*/
 	if (RTC_GetIntPending(LPC_RTC, RTC_INT_ALARM))
 	{
-		
 		// Clear pending interrupt
 		RTC_ClearIntPending(LPC_RTC, RTC_INT_ALARM);
 	}
+	
+#if(EV0_ENABLE == 1)	
+  // Get status
+  er_status = RTC_ER_GetStatus(); 
+  // Get events
+  evt_cnt[0] =  RTC_ER_GetEventCount(0); 
+  RTC_ER_GetFirstTimeStamp(0,(RTC_ER_TIMESTAMP_Type*) &FirstTimeStamp[0]);
+  RTC_ER_GetLastTimeStamp(0, (RTC_ER_TIMESTAMP_Type*) &LastTimeStamp[0]);
+#endif
+
+#if(EV1_ENABLE == 1)
+	// Get events
+  evt_cnt[1] =  RTC_ER_GetEventCount(1); 
+  RTC_ER_GetFirstTimeStamp(1,(RTC_ER_TIMESTAMP_Type*) &FirstTimeStamp[1]);
+  RTC_ER_GetLastTimeStamp(1, (RTC_ER_TIMESTAMP_Type*) &LastTimeStamp[1]);
+#endif	
+	
+#if(EV2_ENABLE == 1)	
+	  // Get events
+  evt_cnt[2] =  RTC_ER_GetEventCount(2); 
+  RTC_ER_GetFirstTimeStamp(2,(RTC_ER_TIMESTAMP_Type*) &FirstTimeStamp[2]);
+  RTC_ER_GetLastTimeStamp(2, (RTC_ER_TIMESTAMP_Type*) &LastTimeStamp[2]);
+#endif	
+  // Clear status
+  RTC_ER_ClearStatus(er_status);	
 }
 
-/*********************************************************************//**
- * @author             
- * @brief 	
- * @date 
- * @return 				              
- **********************************************************************/
-void funcVoid(void)
-{
-	uint8_t tmp;
-	tmp=tmp;
-}
+
 
 /*********************************************************************//**
  * @author             
@@ -134,8 +119,10 @@ void funcVoid(void)
  **********************************************************************/
 void RTC_BSP_Init(RTC_TIME_Type* rtcFullTime)
 {
+	uint8_t i;
 	
-	funMinCounter = funcVoid; 
+	
+	
 	if(!(LPC_RTC->CCR & 0x01))
 	{
 		RTC_Init(LPC_RTC);
@@ -143,19 +130,13 @@ void RTC_BSP_Init(RTC_TIME_Type* rtcFullTime)
 		NVIC_DisableIRQ(RTC_IRQn);
 		/* preemption = 1, sub-priority = 1 */
 		NVIC_SetPriority(RTC_IRQn, ((0x01<<3)|0x01));
+		RTC_ResetClockTickCounter(LPC_RTC);
 		RTC_Cmd(LPC_RTC, ENABLE);
 		RTC_CalibCounterCmd(LPC_RTC, DISABLE);
 
 		/* Set current time for RTC */
 		RTC_SetFullTime(LPC_RTC,rtcFullTime);
-//		// Current time is 06:45:00PM, 2011-03-25
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_SECOND, 0);
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_MINUTE, 45);
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_HOUR, 18);
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_MONTH, 3);
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_YEAR, 2011);
-//		RTC_SetTime (LPC_RTC, RTC_TIMETYPE_DAYOFMONTH, 25);
-		    /* Enable RTC interrupt */
+		EVR_initi();
     NVIC_EnableIRQ(RTC_IRQn);
 	}
 	else
@@ -164,10 +145,77 @@ void RTC_BSP_Init(RTC_TIME_Type* rtcFullTime)
 		/* preemption = 1, sub-priority = 1 */
 		NVIC_SetPriority(RTC_IRQn, ((0x01<<3)|0x01));
 		    /* Enable RTC interrupt */
+		for(i=0;i<3;i++)
+		{
+			evt_cnt[i] =  RTC_ER_GetEventCount(i); 
+			RTC_ER_GetFirstTimeStamp(i,(RTC_ER_TIMESTAMP_Type*) &FirstTimeStamp[i]);
+			RTC_ER_GetLastTimeStamp(i, (RTC_ER_TIMESTAMP_Type*) &LastTimeStamp[i]);
+		}
+		
     NVIC_EnableIRQ(RTC_IRQn);
+		
 	}
 	//RTC_AlarmIntConfig(LPC_RTC,RTC_AMR_AMRSEC,ENABLE);
-	RTC_CntIncrIntConfig(LPC_RTC,RTC_TIMETYPE_SECOND,ENABLE);
+	//RTC_CntIncrIntConfig(LPC_RTC,RTC_TIMETYPE_SECOND,ENABLE);
+	RTC_CntIncrIntConfig(LPC_RTC,RTC_TIMETYPE_MINUTE,ENABLE);
+	//RTC_CntIncrIntConfig(LPC_RTC,RTC_TIMETYPE_HOUR,ENABLE);
+}
+
+/*********************************************************************//**
+ * @brief		c_entry: Main RTC program body
+ * @param[in]	None
+ * @return 		None
+ **********************************************************************/
+void EVR_initi(void)
+{
+	RTC_ER_CONFIG_Type	ErInit;
+	uint8_t uart_in;
+	uint32_t tmp = 0;
+    // Init RTC_ER
+	RTC_ER_InitConfigStruct(&ErInit);
+
+	/* Pin Configuration for Event Monitor/Recoder */
+#if(EV0_ENABLE == 1)	
+	PINSEL_ConfigPin(EV0_PORT,EV0_PIN,EV0_FUNC_NUM);
+  ErInit.InputChannel[0].EventOnPosEdge = TRUE;
+	ErInit.InputChannel[0].IntWake= FALSE;
+	if(RTC_ER_Init(&ErInit) == SUCCESS)
+	{
+        // Enable RTC_ER
+		RTC_ER_Cmd(0,ENABLE);
+		// Enable Interrupt
+		//NVIC_EnableIRQ(RTC_IRQn);
+	}	
+#endif	
+	
+#if(EV1_ENABLE == 1)	
+	////////////////////////////////////////////////
+	PINSEL_ConfigPin(EV1_PORT,EV1_PIN,EV1_FUNC_NUM);
+  ErInit.InputChannel[1].EventOnPosEdge = TRUE;
+	ErInit.InputChannel[1].IntWake= FALSE;
+	if(RTC_ER_Init(&ErInit) == SUCCESS)
+	{
+        // Enable RTC_ER
+		RTC_ER_Cmd(1,ENABLE);
+		// Enable Interrupt
+		//NVIC_EnableIRQ(RTC_IRQn);
+	}	
+#endif
+	
+#if(EV2_ENABLE == 1)	
+	///////////////////////////////////////////////////
+	PINSEL_ConfigPin(EV2_PORT,EV2_PIN,EV2_FUNC_NUM);
+  ErInit.InputChannel[2].EventOnPosEdge = TRUE;
+	ErInit.InputChannel[2].IntWake= FALSE;
+	if(RTC_ER_Init(&ErInit) == SUCCESS)
+	{
+        // Enable RTC_ER
+		RTC_ER_Cmd(2,ENABLE);
+		// Enable Interrupt
+		//NVIC_EnableIRQ(RTC_IRQn);
+	}
+#endif
+	
 }
 /*********************************************************************//**
  * @author             

@@ -29,11 +29,11 @@
 */
 #define ALARM_TABLE_SIZE	20
 //<o> Limit and manage load Task Priority
-#define ALARMMNGT_TASK_PRIO 12
+#define ALARMMNGT_TASK_PRIO 14
 //<o> Daily Meter TaskStack Size
 #define ALARMMNGT_STK_SIZE 64
 
-#define ALARMMNGT_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -57,18 +57,23 @@ typedef struct
 
 typedef struct
 {
-	uint8_t month;
-	uint8_t day;
-	uint8_t hour;
 	uint8_t min;
+	uint8_t hour;	
+	uint8_t day;
+	uint8_t month;
 }time_t;
 
+#pragma anon_unions
 typedef struct
 {
+	union{
 	time_t t1;//start time
+	uint32_t t;
+	};
 	uint64_t mask;//mask time
 	uint8_t EnDis;//enable or disable
 	CallFunAlarm fun;
+	OS_EVENT *osevn;
 }alarm_t;
 
 typedef enum
@@ -87,7 +92,8 @@ typedef enum
 	ALARM_LOAD_PROFIL_ELEC,	
 	ALARM_SRC_ON,
 	ALARM_SRC_OFF,
-	ALARM_TARIFF
+	ALARM_TARIFF,
+	ALARM_DUMMY
 }
 alarm_index_t;
 
@@ -111,9 +117,9 @@ alarm_index_t;
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
-
+void ALARMMNGT_initial(void);
 void RTC_IRQ_SendSignal(void);
-static uint64_t ALARMMNGT_WaitForSignal_RTC(void);
+static void ALARMMNGT_WaitForSignal_RTC(rtc_signal_t *time);
 void Alarm_MGN(alarm_t* alarm,alarm_index_t index);
 
 #endif

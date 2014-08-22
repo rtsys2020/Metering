@@ -15,7 +15,7 @@
 /** @addtogroup CAN
  * @{
  */
-#include "record.h"
+//#include "record.h"
 #include "user_bsp.h"
 /*
 *********************************************************************************************************
@@ -174,9 +174,9 @@ void FlashRTC_Init(void);
 uint32_t SFlash_Size(void);
 void SFlash_Chip_Erase(void);
 
-BOOL_8 SFlash_Read(uint8_t *readBuffer, uint32_t len, uint32_t address);
-int SFlash_Write_Data_Record(Record_t *writeBuffer, uint32_t address);
-uint8_t SFlash_Read_Record(Record_t *readBuffer, uint32_t address);
+//BOOL_8 SFlash_Read(uint8_t *readBuffer, uint32_t len, uint32_t address);
+//int SFlash_Write_Data_Record(Record_t *writeBuffer, uint32_t address);
+//uint8_t SFlash_Read_Record(Record_t *readBuffer, uint32_t address);
 
 void RTC_TimeToStr(RTC_TIME_Type *pTime,char* str);
 

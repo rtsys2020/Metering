@@ -11,6 +11,7 @@
 #include "includes.h"
 #include "alarmmangment.h" 
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -34,11 +35,6 @@ alarm_t alarmsTable[ALARM_TABLE_SIZE];
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *ALARMMNGT_Q; 
-void *ALARMMNGT_QList[ALARMMNGT_QEUEU_SIZE];
-
-OS_EVENT *RTC_IRQ_Q; 
-void *RTC_IRQ_QList[5];
 
 
 OS_STK        ALARMMNGT_TaskStartStk[ALARMMNGT_STK_SIZE];
@@ -84,12 +80,13 @@ void RTC_IRQ_SendSignal(void)
  * @return 				             
  *                         
  **********************************************************************/
-static uint64_t ALARMMNGT_WaitForSignal_RTC(void)
+static void ALARMMNGT_WaitForSignal_RTC(rtc_signal_t *time)
 {
-	uint64_t *time;
+	rtc_signal_t *t;
 	uint8_t err;
-	time = (uint64_t*)OSQPend(RTC_IRQ_Q,0,&err);
-	return *time;
+	t = (rtc_signal_t*)OSQPend(RTC_IRQ_Q,0,&err);
+	memcpy(time,t,sizeof(rtc_signal_t));
+	return ;
 }
 /*********************************************************************//**
  * @author  
@@ -128,7 +125,7 @@ void Alarm_MGN(alarm_t* alarm,alarm_index_t index)
 void ALARMMNGT_initial(void)
 {
 	CPU_INT08U  os_err;
-	alarm_t alarm={{0,0,0,0},0,0,0};
+	alarm_t alarm={{0,0,0,0},0,0,0,NULL};
 	uint8_t i;
 	
 	os_err = os_err; /* prevent warning... */
@@ -139,9 +136,8 @@ void ALARMMNGT_initial(void)
 	}
 	
 //	dailyMeterSem = OSSemCreate(0);
-	RTC_IRQ_Q = OSQCreate(RTC_IRQ_QList,5);
-	ALARMMNGT_Q = OSQCreate(ALARMMNGT_QList,ALARMMNGT_QEUEU_SIZE);
-	funMinCounter = RTC_IRQ_SendSignal;
+
+	//funMinCounter = RTC_IRQ_SendSignal;
 	
 	os_err = OSTaskCreateExt((void (*)(void *)) ALARMMNGT_TaskStart,  /* Create the start task.                               */
                              (void          * ) 0,
@@ -175,16 +171,16 @@ static  void  ALARMMNGT_TaskStart (void *p_arg)
 {   
 	uint8_t err;
 	uint8_t index;
-	uint64_t timeSignal;
+	rtc_signal_t timeSignal;
 	uint8_t i=0;
 	alarm_t alarm0;
-	uint64_t mask;
-	uint64_t *t0;
+	uint64_t mask,t;
+	uint32_t t0;
 	for(;;)
    	{
-			
 			//wait for signal to start 
-			timeSignal = ALARMMNGT_WaitForSignal_RTC();
+			ALARMMNGT_WaitForSignal_RTC(&timeSignal);
+			t = (timeSignal.min)|(timeSignal.hour<<8)|(timeSignal.day<<16)|(timeSignal.month<<24);
 			i=0;
 			while(i<ALARM_TABLE_SIZE)//for n time
 			{
@@ -193,10 +189,13 @@ static  void  ALARMMNGT_TaskStart (void *p_arg)
 				if(alarm0.EnDis)
 				{
 					mask = alarm0.mask;
-					t0 = (uint64_t *)&(alarm0.t1);
-					if((*t0&mask)==(timeSignal&mask))
+					t0 = (alarm0.t);
+					if((t0&mask)==(t&mask))
 					{
-						alarm0.fun();
+						if(alarm0.fun != NULL)
+							alarm0.fun();
+//						if(alarm0.osevn!=NULL)
+//							OSSemPost(alarm0.osevn);
 					}
 				}
 				i++;

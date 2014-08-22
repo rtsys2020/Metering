@@ -12,6 +12,7 @@
 #include "sourceonoff.h" 
 #include "alarmmangment.h"
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -34,8 +35,6 @@ static  void  SourceOnOff_TaskStart (void *p_arg);
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *srcOnOffQ; 
-void *srcOnOffQList[SRC_ON_OFF_QEUEU_SIZE];
 
 OS_STK        Src_On_Off_TaskStartStk[SRC_ON_OFF_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -186,7 +185,7 @@ void SourceOnOff_initial(void)
 	time.MIN = 59;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	srcOnOffQ = OSQCreate(srcOnOffQList,SRC_ON_OFF_QEUEU_SIZE);
+
 	
 
 	

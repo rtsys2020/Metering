@@ -31,7 +31,7 @@
 **********************************************************************/
 
 #include "EXTIT_Handeler.h"
-
+#include "osinit.h"
 //#pragma o3
 /* Peripheral group ----------------------------------------------------------- */
 /** @addtogroup template
@@ -44,9 +44,6 @@
  */
  
  /*----------------- INTERRUPT SERVICE ROUTINES --------------------------*/
-
-
-
 
 IRQ_msg_t EINT0_msg_p;
 IRQ_msg_t EINT1_msg_p;

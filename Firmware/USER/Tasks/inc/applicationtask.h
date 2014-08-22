@@ -23,7 +23,7 @@
 */
 
 
-#include "autenticationTask.h"
+
 #include "irqhandlertask.h"
 
 //<o> Application task Priority

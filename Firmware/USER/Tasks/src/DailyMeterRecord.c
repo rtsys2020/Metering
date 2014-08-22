@@ -12,6 +12,7 @@
 #include "DailyMeterRecord.h" 
 #include "inc\rtc_bsp.h"
 #include "alarmmangment.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -35,8 +36,7 @@ static CallFunAlarm alarm_Func[]={DailyMeterSendSignalGaz,DailyMeterSendSignalWa
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *dialyMeterQ; 
-void *dialyMeterQList[DIALY_QEUEU_SIZE];
+
 
 OS_STK        DAILYM_TaskStartStk[DAILYM_TASK_START_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -195,7 +195,7 @@ void DailyMeterTask_initial(void)
 	time.MIN = 59;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	dialyMeterQ = OSQCreate(dialyMeterQList,DIALY_QEUEU_SIZE);
+	
 	
 	DailyMeterSetAlarmTime(&time,GAZ);
 	DailyMeterSetAlarmTime(&time,WATER);

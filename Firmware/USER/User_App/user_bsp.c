@@ -63,11 +63,11 @@ void  User_BSP_Init (void)
 	GPDMA_Init();
 	NVIC_EnableIRQ(DMA_IRQn);///????
 
-	funSecCounter = BlinkLED;
+	//funSecCounter = BlinkLED;
 	rtc_time.SEC = 10;
 	rtc_time.MIN = 35;
 	rtc_time.HOUR = 23;
-	//RTC_BSP_Init(&rtc_time);
+	RTC_BSP_Init(&rtc_time);
 	EXTI_Init();	
 #if (APP_CFG_DEBUG_ON_UART0 == DEF_ENABLED)
 		debug_frmwrk_init();

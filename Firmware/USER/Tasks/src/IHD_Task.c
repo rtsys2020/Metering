@@ -12,6 +12,7 @@
 #include "IHD_Task.h" 
 #include "alarmmangment.h"
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -33,8 +34,6 @@ static  void  IHD_TaskStart (void *p_arg);
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *IHD_Q; 
-void *IHD_QList[IHD_QEUEU_SIZE];
 
 OS_STK        IHD_TaskStartStk[IHD_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -149,7 +148,7 @@ void IHD_initial(void)
 	time.MIN = 59;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	IHD_Q = OSQCreate(IHD_QList,IHD_QEUEU_SIZE);
+
 	
 
 	

@@ -32,7 +32,7 @@
 //<o> Daily Meter TaskStack Size
 #define DAILYM_TASK_START_STK_SIZE 64
 
-#define DIALY_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************

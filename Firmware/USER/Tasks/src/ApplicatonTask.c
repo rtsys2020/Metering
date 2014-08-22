@@ -9,16 +9,23 @@
 **********************************************************************/
 #include "applicationtask.h"
 #include "includes.h"
-#include "DestuffingTask.h"
-#include "hdlctask.h"
-#include "DestuffingTask.h"
-#include "StuffingTask.h"
+#include "DailyMeterRecord.h" 
+#include "LimitAndManageBar.h" 
+#include "IHD_Task.h" 
+#include "alarmmangment.h" 
+#include "loadprofil_task.h" 
+#include "sourceonoff.h" 
+#include "tariff_task.h" 
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
  * @{
  */
  /* Private variables ---------------------------------------------------------*/
+
+extern void User_BSP_Init(void);
+
 #if (OS_VIEW_MODULE == DEF_ENABLED)
 extern void  App_OSViewTaskCreate (void);
 #endif
@@ -104,6 +111,7 @@ static  void  App_TaskStart (void *p_arg)
 #if (OS_TASK_STAT_EN > 0)
     OSStatInit();                                            /* Determine CPU capacity.                              */
 #endif
+		App_SignalQeueq_Init();
 		User_BSP_Init();
     App_TaskCreate();                                        /* Create application tasks.                            */
 	
@@ -131,21 +139,16 @@ static  void  App_TaskCreate (void)
 #if (OS_VIEW_MODULE != OS_VIEW_MODULE)
 	App_OSViewTaskCreate();
 #endif	
-	IRQ_Task_initial();
-	//Dummy_initial();
-	//App_BlinkTaskCreate();	
-	//App_DestuffingTaskCreate();
-	//App_StuffingTaskCreate();
-	//App_EthernetTaskCreate();
-	//App_TouchKeyTaskCreate();
-	//App_LWIPTaskCreate();
-	//App_MMcTestTaskCreat();
-	//App_HDLCTaskCreat();
-	//App_ZKFingerTaskCreat();
-	
-	
+	IRQ_Task_initial();//priority 15
+	//DailyMeterTask_initial();//11
+	//LimitAndManageBar_initial();//12
+	//IHD_initial();//13
+	ALARMMNGT_initial();//14
+	//LoadProfilTask_initial();//15
+	//SourceOnOff_initial();//16
+	//Tariff_initial();//17
+	Dummy_initial();//20
 }
-
 
 
 

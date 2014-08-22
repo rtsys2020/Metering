@@ -29,11 +29,11 @@
 */
 
 //<o> Limit and manage load Task Priority
-#define IHD_TASK_PRIO 12
+#define IHD_TASK_PRIO 13
 //<o> Daily Meter TaskStack Size
 #define IHD_STK_SIZE 64
 
-#define IHD_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -66,7 +66,7 @@ typedef struct
 *********************************************************************************************************
 */
 uint8_t IHD_WaitForSignal(uint8_t *msg);
-
+void IHD_initial(void);
 
 #endif
 

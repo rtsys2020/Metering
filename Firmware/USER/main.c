@@ -35,11 +35,11 @@ void  delay_ms (uint16_t dly);
 */
 
 ///__CHECK_DEVICE_DEFINES
-#define DIV_0_TRP_BIT		4	
-#define UNALIGN_TRP_BIT	3
-#define MEMFAULTENA		16	
-#define BUSFAULTENA		17
-#define USGFAULTENA		18
+#define DIV_0_TRP_BIT			4	
+#define UNALIGN_TRP_BIT		3
+#define MEMFAULTENA				16	
+#define BUSFAULTENA				17
+#define USGFAULTENA				18
 
 	
 int main (void)

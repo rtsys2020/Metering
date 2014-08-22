@@ -28,11 +28,11 @@
 */
 
 //<o> Daily Meter Task Priority
-#define LOAD_PROFIL_TASK_START_PRIO 11
+#define LOAD_PROFIL_TASK_START_PRIO 15
 //<o> Daily Meter TaskStack Size
 #define LOAD_PROFIL_TASK_START_STK_SIZE 64
 
-#define LOAD_PROFIL_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -64,6 +64,7 @@ typedef enum
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
+void LoadProfilTask_initial(void);
 void LoadProfilSendSignalWater(void);
 void LoadProfilSendSignalGaz(void);
 void LoadProfilSendSignalElec(void);

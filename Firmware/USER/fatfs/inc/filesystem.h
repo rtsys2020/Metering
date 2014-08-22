@@ -24,7 +24,7 @@ extern "C" {
 #include "integer.h"	/* Basic integer types */
 #include "ffconf.h"		/* FatFs configuration options */
 #include "ff.h"
-#include "record.h"
+//#include "record.h"
 #include "includes.h"
 //add by rezaee
 /* global variable for FatFs use */
@@ -47,8 +47,8 @@ uint8_t USB_Init (void) ;
 uint8_t USB_mkdir(uint8_t dir[]);
 uint8_t USB_chdir(uint8_t dir[]);
 uint8_t MMC_test(void);
-uint8_t MMC_PutRec(Record_t record);
-uint8_t MMC_PutRecImage(Record_t record,uint8_t *imgRAW);		
+//uint8_t MMC_PutRec(Record_t record);
+//uint8_t MMC_PutRecImage(Record_t record,uint8_t *imgRAW);		
 FRESULT scan_files (char* path );
 
 #ifdef __cplusplus

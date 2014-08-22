@@ -12,6 +12,7 @@
 #include "LimitAndManageBar.h" 
 #include "alarmmangment.h"
 #include "inc\rtc_bsp.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -35,8 +36,7 @@ RTC_TIME_Type endTimes[NUM_OF_TIMES];
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *limitAndManageBarQ; 
-void *limitAndManageBarQList[LIMIT_LOUAD_QEUEU_SIZE];
+
 
 OS_STK        LimitLouad_TaskStartStk[LIMIT_LOUAD_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -210,7 +210,7 @@ void LimitAndManageBar_initial(void)
 	time.MIN = 59;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	limitAndManageBarQ = OSQCreate(limitAndManageBarQList,LIMIT_LOUAD_QEUEU_SIZE);
+
 	
 
 	

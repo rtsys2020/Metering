@@ -11,6 +11,8 @@
 #include "includes.h"
 #include "inc\rtc_bsp.h"
 #include "irqhandlertask.h"
+#include "inc\ade7953_i2c_driver.h"
+#include "osinit.h"
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -29,8 +31,7 @@
 */
 
 //OS_EVENT *dailyMeterSem;
-OS_EVENT *IRQ_Q; 
-void *IRQ_QList[IRQ_QEUEU_SIZE];
+
 
 OS_STK        IRQ_TaskStartStk[IRQ_STK_SIZE];
 /* Private Variables ---------------------------------------------------------- */
@@ -61,7 +62,7 @@ void IRQ_Task_initial(void)
 	time.MIN = 00;
 	
 //	dailyMeterSem = OSSemCreate(0);
-	IRQ_Q = OSQCreate(IRQ_QList,IRQ_QEUEU_SIZE);
+	
 	if(IRQ_Q == NULL)
 		return;
 	
@@ -97,6 +98,7 @@ static  void  IRQ_TaskStart (void *p_arg)
 {   
 	IRQ_msg_t *msg;
 	uint8_t err;
+	ADE7953_Reset();
 	for(;;)
    	{
 			//wait for signal to start calculate avarage load

@@ -53,13 +53,28 @@ extern funp funHourCounter;
 *********************************************************************************************************
 */
 
+#define EV0_ENABLE		1
+#define EV0_PORT			0
+#define EV0_PIN				7
+#define	EV0_FUNC_NUM	4
+
+#define EV1_ENABLE		0
+#define EV1_PORT			0
+#define EV1_PIN				8
+#define	EV1_FUNC_NUM	4
+
+#define EV2_ENABLE		0
+#define EV2_PORT			0
+#define EV2_PIN				9
+#define	EV2_FUNC_NUM	4
+
 /*
 *********************************************************************************************************
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
 void RTC_BSP_Init(RTC_TIME_Type* rtcFullTime);
-
+void EVR_initi(void);
 uint8_t RTC_BSP_CompareTime(RTC_TIME_Type* time,RTC_TIME_Type* t1,RTC_TIME_Type* t2);
 /*
 EOF

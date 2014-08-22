@@ -33,7 +33,7 @@
 //<o> Daily Meter TaskStack Size
 #define LIMIT_LOUAD_STK_SIZE 64
 
-#define LIMIT_LOUAD_QEUEU_SIZE	5
+
 
 /*
 *********************************************************************************************************
@@ -60,7 +60,7 @@
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
-
+void LimitAndManageBar_initial(void);
 uint8_t LimitManageWaitForSignal(uint8_t *err);
 void LimitManageSendEnd(void);
 void LimitManageSendStart(void);
