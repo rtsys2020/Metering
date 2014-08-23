@@ -21,6 +21,8 @@ local.properties
 
 # Object files
 *.o
+*.d
+*.crf
 *.ko
 *.obj
 *.elf
