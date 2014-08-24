@@ -45,8 +45,8 @@ OS_STK        DAILYM_TaskStartStk[DAILYM_TASK_START_STK_SIZE];
  */
 
 /*********************************************************************//**
- * @author    ???? ?????         
- * @brief 	????? ????? ??? ??? ????? ??? ????? ? ??????? ??????
+ * @author             
+ * @brief 	
  * @date 
  * @version  1.0
  * @description 
@@ -63,31 +63,31 @@ static DialyMeterSource_t DailyMeterWaitForSignal(uint8_t *err)
 	return *src;
 }
 
-/*********************************************************************//**
- * @author   
- * @brief 	
- * @date 
- * @version  1.0
- * @description 
- * @param[in]		None.
- * @param[out]		None.
- * @return 				             
- *                         
- **********************************************************************/
-uint8_t DailyMeterSendSignal(RTC_TIME_Type* fulltime,DialyMeterSource_t src)
-{
-	uint8_t err;
-	RTC_TIME_Type compTime;
-	static  DialyMeterSource_t msg;
-	RTC_BSP_CompareTime(&compTime,&dailyMeterTime[src],fulltime);
-	if(compTime.MIN == 0 & compTime.HOUR == 0)
-	{
-		msg = src;
-		OSQPost(dialyMeterQ,&msg);
-		//err = OSSemPost(dailyMeterSem);
-	}
-	return err;
-}
+///*********************************************************************//**
+// * @author   
+// * @brief 	
+// * @date 
+// * @version  1.0
+// * @description 
+// * @param[in]		None.
+// * @param[out]		None.
+// * @return 				             
+// *                         
+// **********************************************************************/
+//uint8_t DailyMeterSendSignal(RTC_TIME_Type* fulltime,DialyMeterSource_t src)
+//{
+//	uint8_t err;
+//	RTC_TIME_Type compTime;
+//	static  DialyMeterSource_t msg;
+//	RTC_BSP_CompareTime(&compTime,&dailyMeterTime[src],fulltime);
+//	if(compTime.MIN == 0 & compTime.HOUR == 0)
+//	{
+//		msg = src;
+//		OSQPost(dialyMeterQ,&msg);
+//		//err = OSSemPost(dailyMeterSem);
+//	}
+//	return err;
+//}
 
 /*********************************************************************//**
  * @author   
@@ -162,7 +162,8 @@ Status DailyMeterSetAlarmTime(RTC_TIME_Type* fulltime,DialyMeterSource_t src)
 	if(fulltime != NULL)
 	{
 		alarm.EnDis = ENABLE;
-		alarm.mask = 0x0000000000FFFF00;
+		alarm.mask = 0x0000000000FFFF;
+		alarm.t1.month = 0;
 		alarm.t1.day = 0;
 		alarm.t1.hour = fulltime->HOUR;
 		alarm.t1.min = fulltime->MIN;
@@ -242,6 +243,24 @@ static  void  DailyMeter_TaskStart (void *p_arg)
 			src = DailyMeterWaitForSignal(&err);
 			if( err == OS_ERR_NONE)
 			{
+				switch(src)
+				{
+					case WATER:
+					{
+						//do daily water recording
+						break;
+					}
+					case GAZ:
+					{
+						//do daily gaz recording
+						break;
+					}
+					case ELECTRICITY:
+					{
+						//do daily electricity recording
+						break;
+					}					
+				}
 					//do work
 			}
       OSTimeDlyHMSM(0, 1, 0, 0);							 /* Delay One minute */

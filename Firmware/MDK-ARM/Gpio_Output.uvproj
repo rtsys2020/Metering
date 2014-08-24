@@ -844,6 +844,11 @@
               <FileType>1</FileType>
               <FilePath>..\USER\common\src\osinital.c</FilePath>
             </File>
+            <File>
+              <FileName>memory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\memory.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1678,6 +1683,11 @@
               <FileName>osinital.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\USER\common\src\osinital.c</FilePath>
+            </File>
+            <File>
+              <FileName>memory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\memory.c</FilePath>
             </File>
           </Files>
         </Group>

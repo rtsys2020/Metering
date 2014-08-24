@@ -41,11 +41,14 @@
 *********************************************************************************************************
 */
 
-typedef struct
+
+
+typedef struct 
 {
-	uint8_t str[100];
-	uint16_t len;
-}mesage_t;
+	uint8_t str[60];
+	uint8_t len;
+	uint8_t src;
+}IHD_msg_t;
 /*
 *********************************************************************************************************
 *                                            GLOBAL VARIABLES
@@ -65,7 +68,7 @@ typedef struct
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
-uint8_t IHD_WaitForSignal(uint8_t *msg);
+uint8_t IHD_WaitForSignal(IHD_msg_t *msg);
 void IHD_initial(void);
 
 #endif

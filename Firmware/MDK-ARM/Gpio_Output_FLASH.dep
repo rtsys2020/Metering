@@ -284,10 +284,10 @@ I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 F (..\USER\User_App\user_bsp.h)(0x53F60BEA)()
 F (..\USER\Tasks\inc\DailyMeterRecord.h)(0x53F736FF)()
 F (..\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)()
-F (..\USER\Tasks\inc\AlarmMangment.h)(0x53F74295)()
-F (..\USER\Tasks\inc\IHD_Task.h)(0x53F738B3)()
+F (..\USER\Tasks\inc\AlarmMangment.h)(0x53F7634C)()
+F (..\USER\Tasks\inc\IHD_Task.h)(0x53FA215D)()
 F (..\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)()
-F (..\USER\Tasks\inc\LimitAndManageBar.h)(0x53F738F2)()
+F (..\USER\Tasks\inc\LimitAndManageBar.h)(0x53FA1828)()
 F (..\USER\Tasks\inc\loadprofil_task.h)(0x53F73908)()
 F (..\USER\Tasks\inc\sourceonoff.h)(0x53F7391E)()
 F (..\USER\Tasks\inc\tariff_task.h)(0x53F73930)()
@@ -397,7 +397,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 F (..\USER\uC-OSII\ucCos_App\os_cfg.h)(0x53C7F0F0)()
-F (..\USER\Tasks\src\ApplicatonTask.c)(0x53F742B4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\applicatontask.o --omf_browse .\flash\applicatontask.crf --depend .\flash\applicatontask.d)
+F (..\USER\Tasks\src\ApplicatonTask.c)(0x53FA1FE3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\applicatontask.o --omf_browse .\flash\applicatontask.crf --depend .\flash\applicatontask.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
@@ -441,14 +441,14 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\DailyMeterRecord.h)(0x53F736FF)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\LimitAndManageBar.h)(0x53F738F2)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\IHD_Task.h)(0x53F738B3)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\LimitAndManageBar.h)(0x53FA1828)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\IHD_Task.h)(0x53FA215D)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\loadprofil_task.h)(0x53F73908)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\sourceonoff.h)(0x53F7391E)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\tariff_task.h)(0x53F73930)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
-F (..\USER\Tasks\src\DailyMeterRecord.c)(0x53F736EB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\dailymeterrecord.o --omf_browse .\flash\dailymeterrecord.crf --depend .\flash\dailymeterrecord.d)
+F (..\USER\Tasks\src\DailyMeterRecord.c)(0x53FA1C9A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\dailymeterrecord.o --omf_browse .\flash\dailymeterrecord.crf --depend .\flash\dailymeterrecord.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
@@ -493,9 +493,9 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\DailyMeterRecord.h)(0x53F736FF)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
-F (..\USER\Tasks\src\LimitAndManageBar.c)(0x53F7374D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\limitandmanagebar.o --omf_browse .\flash\limitandmanagebar.crf --depend .\flash\limitandmanagebar.d)
+F (..\USER\Tasks\src\LimitAndManageBar.c)(0x53FA1B2F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\limitandmanagebar.o --omf_browse .\flash\limitandmanagebar.crf --depend .\flash\limitandmanagebar.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
@@ -538,11 +538,11 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x5016655C)
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\LimitAndManageBar.h)(0x53F738F2)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\LimitAndManageBar.h)(0x53FA1828)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
-F (..\USER\Tasks\src\IHD_Task.c)(0x53F73792)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ihd_task.o --omf_browse .\flash\ihd_task.crf --depend .\flash\ihd_task.d)
+F (..\USER\Tasks\src\IHD_Task.c)(0x53FA218B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ihd_task.o --omf_browse .\flash\ihd_task.crf --depend .\flash\ihd_task.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
@@ -585,11 +585,11 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x5016655C)
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\IHD_Task.h)(0x53F738B3)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\IHD_Task.h)(0x53FA215D)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
-F (..\USER\Tasks\src\AlarmMangment.c)(0x53F7428C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\alarmmangment.o --omf_browse .\flash\alarmmangment.crf --depend .\flash\alarmmangment.d)
+F (..\USER\Tasks\src\AlarmMangment.c)(0x53F7634F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\alarmmangment.o --omf_browse .\flash\alarmmangment.crf --depend .\flash\alarmmangment.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
@@ -632,7 +632,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_eeprom.h)(0x5016655C)
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
 F (..\USER\Tasks\src\loadprofil_task.c)(0x53F737C8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\loadprofil_task.o --omf_browse .\flash\loadprofil_task.crf --depend .\flash\loadprofil_task.d)
@@ -680,7 +680,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\loadprofil_task.h)(0x53F73908)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
 F (..\USER\Tasks\src\sourceonoff.c)(0x53F737FC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\sourceonoff.o --omf_browse .\flash\sourceonoff.crf --depend .\flash\sourceonoff.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
@@ -726,7 +726,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\sourceonoff.h)(0x53F7391E)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
 F (..\USER\Tasks\src\tariff_task.c)(0x53F73832)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\tariff_task.o --omf_browse .\flash\tariff_task.crf --depend .\flash\tariff_task.d)
@@ -773,7 +773,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\tariff_task.h)(0x53F73930)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
 F (..\USER\Tasks\src\dummyTask.c)(0x53F74208)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\dummytask.o --omf_browse .\flash\dummytask.crf --depend .\flash\dummytask.d)
@@ -821,7 +821,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 F (..\USER\Tasks\src\IRQHandelTask.c)(0x53F73A02)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\irqhandeltask.o --omf_browse .\flash\irqhandeltask.crf --depend .\flash\irqhandeltask.d)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\applicationtask.h)(0x53F60F6B)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\irqhandlertask.h)(0x53F738DF)
@@ -998,6 +998,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\common\inc\osinit.h)(0x53F73A4D)
 I (C:\Project\Metering\Firmware\USER\RTC\inc\rtc_bsp.h)(0x53F70037)
+F (..\USER\common\src\memory.c)(0x53FA1FC1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\memory.o --omf_browse .\flash\memory.crf --depend .\flash\memory.d)
 F (..\USER\Flash-RTC\src\at45db32.c)(0x53EBC414)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\at45db32.o --omf_browse .\flash\at45db32.crf --depend .\flash\at45db32.d)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
 I (C:\Keil4.7\ARM\ARMCC\include\stdio.h)(0x51C819B4)
@@ -1086,7 +1087,7 @@ I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\
 I (C:\Project\Metering\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_ssp.h)(0x5016655C)
 I (C:\Project\Metering\Firmware\USER\fatfs\inc\integer.h)(0x5231C7AE)
 I (C:\Project\Metering\Firmware\USER\Tasks\inc\DailyMeterRecord.h)(0x53F736FF)
-I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F74295)
+I (C:\Project\Metering\Firmware\USER\Tasks\inc\alarmmangment.h)(0x53F7634C)
 F (..\USER\ADE7953\src\ade7953_i2c_driver.c)(0x53F60D12)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include -I..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include -I..\USER\common\inc -I..\USER\IRQ_Handeler\inc -I..\USER\fatfs\inc -I..\USER\ucCos_App -I..\USER\User_App -I..\USER\SwitchPin\inc -I..\USER\Config -I..\USER\uC-OSII\ucCos_App -I..\USER\uC-OSII\ -I..\USER\Tasks\inc -I..\USER\HDLC\inc -I..\USER\Flash-RTC\inc -I..\USER\RTC -I..\USER\ADE7953 -I..\USER\manipulation -I..\USER\IRQ_Handeler\inc-I C:\Keil4.7\ARM\RV31\INC-I C:\Keil4.7\ARM\CMSIS\Include-I C:\Keil4.7\ARM\Inc\NXP\LPC177x_8x-D_UC_OS_ -o .\flash\ade7953_i2c_driver.o --omf_browse .\flash\ade7953_i2c_driver.crf --depend .\flash\ade7953_i2c_driver.d)
 I (C:\Project\Metering\Firmware\USER\ADE7953\inc\ade7953_i2c_driver.h)(0x53F60153)
 I (C:\Project\Metering\Firmware\USER\ucCos_App\includes.h)(0x53E342D6)
