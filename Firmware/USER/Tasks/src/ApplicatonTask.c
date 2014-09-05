@@ -17,8 +17,6 @@
 #include "sourceonoff.h" 
 #include "tariff_task.h" 
 #include "osinit.h"
-#include "memory.h"
-
 /* Example group ----------------------------------------------------------- */
 /** @defgroup DAC_SineWave	DAC SineWave
  * @ingroup DAC_Examples
@@ -113,7 +111,6 @@ static  void  App_TaskStart (void *p_arg)
 #if (OS_TASK_STAT_EN > 0)
     OSStatInit();                                            /* Determine CPU capacity.                              */
 #endif
-		memoryInit();
 		App_SignalQeueq_Init();
 		User_BSP_Init();
     App_TaskCreate();                                        /* Create application tasks.                            */
@@ -142,15 +139,15 @@ static  void  App_TaskCreate (void)
 #if (OS_VIEW_MODULE != OS_VIEW_MODULE)
 	App_OSViewTaskCreate();
 #endif	
-	ALARMMNGT_initial();//14 ok must be greatest priority
-	IRQ_Task_initial();//priority 15 ok
+	IRQ_Task_initial();//priority 15
 	//DailyMeterTask_initial();//11
+	//LimitAndManageBar_initial();//12
 	//IHD_initial();//13
+	ALARMMNGT_initial();//14
 	//LoadProfilTask_initial();//15
 	//SourceOnOff_initial();//16
-	//Tariff_initial();//17
+	Tariff_initial();//17
 	Dummy_initial();//20
-	LimitAndManageBar_initial();//12 ok
 }
 
 

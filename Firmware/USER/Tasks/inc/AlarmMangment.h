@@ -61,6 +61,7 @@ typedef struct
 	uint8_t hour;	
 	uint8_t day;
 	uint8_t month;
+	uint32_t year;
 }time_t;
 
 #pragma anon_unions
@@ -93,7 +94,9 @@ typedef enum
 	ALARM_SRC_ON,
 	ALARM_SRC_OFF,
 	ALARM_TARIFF,
-	ALARM_DUMMY
+	ALARM_TOU,
+	ALARM_DUMMY,
+	ALARM_BILLING_RST
 }
 alarm_index_t;
 

@@ -29,6 +29,9 @@ unsigned char ChrisMonthLen[13] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30
 unsigned char SolarMonthLen[13] = {0, 31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29};
 
  
+uint32_t Clk_Time_Shift;
+uint32_t Clk_Time_Zone;
+
 /**
  * @}
  */
@@ -38,6 +41,67 @@ volatile RTC_ER_TIMESTAMP_Type FirstTimeStamp[3];
 volatile RTC_ER_TIMESTAMP_Type LastTimeStamp[3];
 volatile uint8_t evt_cnt[3];
 
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+ void RTC_BSP_Set_TimShift(uint32_t valSec)
+{
+	Clk_Time_Shift = valSec;
+}
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+ uint32_t RTC_BSP_Get_TimShift(void)
+{
+	return Clk_Time_Shift;
+}
+
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+ void RTC_BSP_Set_TimZone(uint32_t valMin)
+{
+	Clk_Time_Shift = valMin;
+}
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+ uint32_t RTC_BSP_Get_TimZone(void)
+{
+	return Clk_Time_Shift;
+}
 /*********************************************************************//**
  * @author             
  * @brief 	
@@ -491,3 +555,104 @@ uint8_t RTC_BSP_CompareTime(RTC_TIME_Type* time,RTC_TIME_Type* t1,RTC_TIME_Type*
 	time->DOY = t1->DOY - t2->DOY;
 	return 1;
 }
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+uint32_t TimeToSec(RTC_TIME_Type* time)
+{
+	return time->SEC+(time->MIN*60)+time->HOUR*3600;
+}
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+uint8_t RTC_BSP_SetTime(uint8_t hour,uint8_t min,uint8_t sec)
+{
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_SECOND,sec);
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_MINUTE,min);
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_HOUR,hour);
+	return 1;
+}
+
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+uint8_t RTC_BSP_GetTime(uint8_t *hour,uint8_t *min,uint8_t *sec)
+{
+	*sec = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_SECOND);
+	*min = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_MINUTE);
+	*hour = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_HOUR);
+	return 1;
+}
+
+/*********************************************************************//**
+s * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+void RTC_BSP_SetDate(uint16_t year,uint8_t month,uint8_t day)
+{
+	uint16_t chritYear=year;
+	uint8_t christMonth=month;
+	uint8_t christDay=day;
+	
+	SolarToChristian(&chritYear,&christMonth,&christDay);
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_YEAR,chritYear);
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_MONTH,christMonth);
+	RTC_SetTime(LPC_RTC,RTC_TIMETYPE_DAYOFMONTH,christDay);
+}
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+void RTC_BSP_GetDate(uint16_t *year,uint8_t *month,uint8_t *day)
+{
+	uint16_t chritYear;
+	uint8_t christMonth;
+	uint8_t christDay;
+
+	chritYear = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_YEAR);
+	christMonth = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_MONTH);
+	christDay = RTC_GetTime(LPC_RTC,RTC_TIMETYPE_DAYOFMONTH);	
+	ChristianToSolar(&chritYear,&christMonth,&christDay);
+	*year = chritYear;
+	*month = christMonth;
+	*day = christDay;
+}
+

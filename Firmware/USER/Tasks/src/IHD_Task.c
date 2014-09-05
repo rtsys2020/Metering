@@ -40,78 +40,24 @@ OS_STK        IHD_TaskStartStk[IHD_STK_SIZE];
 /** @defgroup Private Variable
  * @{
  */
-extern OS_MEM *IHD_msg_mem;
+
 /*********************************************************************//**
  * @author   
  * @brief 	
  * @date 
  * @version  1.0
  * @description 
- * @param[in]		None. must be static or gelobal variable
+ * @param[in]		None.
  * @param[out]		None.
  * @return 				             
  *                         
  **********************************************************************/
-uint8_t IHD_SendSignal(IHD_msg_t *msg)
+uint8_t IHD_SendSignal(uint8_t *msg)
 {
 	uint8_t err;
-	IHD_msg_t *buff;
-	buff = OSMemGet(IHD_msg_mem,&err);
-	if(buff!=NULL)
-	{
-		memcpy(buff,msg,sizeof(IHD_msg_t));
-		OSQPost(IHD_Q,&msg);
-	}
+	OSQPost(IHD_Q,&msg);
 	return err;
 }
-///*********************************************************************//**
-// * @author             
-// * @brief 	
-// * @date 
-// * @version  1.0
-// * @description 
-// * @param[in]		None.
-// * @param[out]		None.
-// * @return 				             
-// *                         
-// **********************************************************************/
-//void IHD_RTC_SendSignal(void)
-//{
-//	uint8_t err;
-//	static uint8_t msg[]="message";
-//	OSQPost(IHD_Q,msg);
-//	return ;
-//}
-
-///*********************************************************************//**
-// * @author             
-// * @brief 	
-// * @date 
-// * @version  1.0
-// * @description 
-// * @param[in]		None.
-// * @param[out]		None.
-// * @return 				             
-// *                         
-// **********************************************************************/
-//Status IHD_SetAlarmTime(RTC_TIME_Type* fulltime,uint8_t index)
-//{
-//	alarm_t alarm;
-//	
-//	if(fulltime != NULL)
-//	{
-//		alarm.EnDis = ENABLE;
-//		alarm.mask = 0x0000000000FFFF00;
-//		alarm.t1.day = 0;
-//		alarm.t1.hour = fulltime->HOUR;
-//		alarm.t1.min = fulltime->MIN;
-//		alarm.fun = IHD_RTC_SendSignal;
-//		Alarm_MGN(&alarm,ALARM_IHD);
-//		//memcpy(&dailyMeterTime[src],fulltime,sizeof(RTC_TIME_Type));
-//		return SUCCESS;
-//	}
-//	return ERROR;
-//}
 /*********************************************************************//**
  * @author             
  * @brief 	
@@ -123,17 +69,61 @@ uint8_t IHD_SendSignal(IHD_msg_t *msg)
  * @return 				             
  *                         
  **********************************************************************/
-uint8_t IHD_WaitForSignal(IHD_msg_t *msg)
+void IHD_RTC_SendSignal(void)
 {
 	uint8_t err;
-	IHD_msg_t *buff;
-	//OSSemPend(dailyMeterSem,0,&err);
-	buff = (IHD_msg_t*)OSQPend(IHD_Q,0,&err);
-	if(buff!=NULL)
+	static uint8_t msg[]="message";
+	OSQPost(IHD_Q,msg);
+	return ;
+}
+
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  1.0
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+Status IHD_SetAlarmTime(RTC_TIME_Type* fulltime,uint8_t index)
+{
+	alarm_t alarm;
+	
+	if(fulltime != NULL)
 	{
-		memcpy(msg,buff,sizeof(IHD_msg_t));
-		OSMemPut(IHD_msg_mem,buff);
+		alarm.EnDis = ENABLE;
+		alarm.mask = 0x0000000000FFFF00;
+		alarm.t1.day = 0;
+		alarm.t1.hour = fulltime->HOUR;
+		alarm.t1.min = fulltime->MIN;
+		alarm.fun = IHD_RTC_SendSignal;
+		Alarm_MGN(&alarm,ALARM_IHD);
+		//memcpy(&dailyMeterTime[src],fulltime,sizeof(RTC_TIME_Type));
+		return SUCCESS;
 	}
+	return ERROR;
+}
+/*********************************************************************//**
+ * @author             
+ * @brief 	
+ * @date 
+ * @version  1.0
+ * @description 
+ * @param[in]		None.
+ * @param[out]		None.
+ * @return 				             
+ *                         
+ **********************************************************************/
+uint8_t IHD_WaitForSignal(uint8_t *msg)
+{
+	uint8_t err;
+	uint8_t *buff;
+	//OSSemPend(dailyMeterSem,0,&err);
+	buff = (uint8_t*)OSQPend(IHD_Q,0,&err);
+	//memcpy();
 	return err;
 } 
 /*********************************************************************//**
@@ -194,11 +184,10 @@ static  void  IHD_TaskStart (void *p_arg)
 {   
 	uint8_t err;
 	uint8_t index;
-	IHD_msg_t data;
 	for(;;)
    	{
 			//wait for signal to start calculate avarage load
-			err = IHD_WaitForSignal(&data);
+			index = IHD_WaitForSignal(&err);
 
     }	
 }

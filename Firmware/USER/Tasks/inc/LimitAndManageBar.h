@@ -60,7 +60,6 @@
 *                                           FUNCTION PROTOTYPES
 *********************************************************************************************************
 */
-void LimitAndManageBar_taskCreate(void);
 void LimitAndManageBar_initial(void);
 uint8_t LimitManageWaitForSignal(uint8_t *err);
 void LimitManageSendEnd(void);

@@ -28,6 +28,8 @@ void *RTC_IRQ_QList[5];
 OS_EVENT *dialyMeterQ; 
 void *dialyMeterQList[DIALY_QEUEU_SIZE];
 
+OS_EVENT *NRI_RST_Sem;
+
 OS_EVENT *limitAndManageBarQ; 
 void *limitAndManageBarQList[LIMIT_LOUAD_QEUEU_SIZE];
 
@@ -76,5 +78,5 @@ void App_SignalQeueq_Init(void)
 	Tariff_Q = OSQCreate(Tariff_QList,TARIFF_QEUEU_SIZE);
 	Dummy_Q = OSQCreate(Dummy_QList,DUMMY_QEUEU_SIZE);
 	IRQ_Q = OSQCreate(IRQ_QList,IRQ_QEUEU_SIZE);	
-	
+	NRI_RST_Sem = OSSemCreate(0);
 }

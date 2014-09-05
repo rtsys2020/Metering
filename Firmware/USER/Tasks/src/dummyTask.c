@@ -1,7 +1,7 @@
 /**********************************************************************
-* $Id$		tariff_task.c				
+* $Id$		dummy_task.c				
 *//**
-* @file		tariff_task.c
+* @file		dummy_task.c
 * @brief	
 * @version	2.0
 * @date		

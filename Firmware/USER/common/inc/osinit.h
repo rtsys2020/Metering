@@ -16,9 +16,7 @@
 #ifndef  OSINITITIAL_H
 #define  OSINITITIAL_H
 
-/*
-//-------- <<< Use Configuration Wizard in Context Menu >>> ------------------
-*/
+
 #include "includes.h"
 
 
@@ -61,7 +59,7 @@ extern OS_EVENT *limitAndManageBarQ;
 extern OS_EVENT *ALARMMNGT_Q; 
 extern OS_EVENT *RTC_IRQ_Q; 
 extern OS_EVENT *dialyMeterQ; 
-
+extern OS_EVENT *NRI_RST_Sem;
 /*
 *********************************************************************************************************
 *                                          GPIO PIN DEFINITIONS

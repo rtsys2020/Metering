@@ -180,7 +180,7 @@ static  void  ALARMMNGT_TaskStart (void *p_arg)
    	{
 			//wait for signal to start 
 			ALARMMNGT_WaitForSignal_RTC(&timeSignal);
-			t = (timeSignal.min)|(timeSignal.hour<<8)|(timeSignal.day<<16)|(timeSignal.month<<24);
+			t = (timeSignal.min)|(timeSignal.hour<<8)|(timeSignal.day<<16)|(timeSignal.month<<24)|(timeSignal.year<<32);
 			i=0;
 			while(i<ALARM_TABLE_SIZE)//for n time
 			{

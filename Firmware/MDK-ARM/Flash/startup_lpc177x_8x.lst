@@ -447,11 +447,11 @@ ARM Macro Assembler    Page 7
               00000000 
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\flash\
-startup_lpc177x_8x.d -o.\flash\startup_lpc177x_8x.o -IC:\Keil4.7\ARM\RV31\INC -
-IC:\Keil4.7\ARM\CMSIS\Include -IC:\Keil4.7\ARM\Inc\NXP\LPC177x_8x --predefine="
-__MICROLIB SETA 1" --list=.\flash\startup_lpc177x_8x.lst ..\..\Common\lpc177x.l
-pc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startu
-p_LPC177x_8x.s
+startup_lpc177x_8x.d -o.\flash\startup_lpc177x_8x.o -IC:\Keil\ARM\RV31\INC -IC:
+\Keil\ARM\CMSIS\Include -IC:\Keil\ARM\Inc\NXP\LPC177x_8x --predefine="__MICROLI
+B SETA 1" --list=.\flash\startup_lpc177x_8x.lst ..\..\Common\lpc177x.lpc178x.li
+brary_2012.8.13\Core\Device\NXP\LPC177x_8x\Source\Templates\ARM\startup_LPC177x
+_8x.s
 
 
 

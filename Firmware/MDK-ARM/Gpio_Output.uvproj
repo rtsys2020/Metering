@@ -845,9 +845,19 @@
               <FilePath>..\USER\common\src\osinital.c</FilePath>
             </File>
             <File>
-              <FileName>memory.c</FileName>
+              <FileName>list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER\common\src\memory.c</FilePath>
+              <FilePath>..\USER\common\src\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_iterator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\list_iterator.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_node.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\list_node.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1685,9 +1695,19 @@
               <FilePath>..\USER\common\src\osinital.c</FilePath>
             </File>
             <File>
-              <FileName>memory.c</FileName>
+              <FileName>list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\USER\common\src\memory.c</FilePath>
+              <FilePath>..\USER\common\src\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_iterator.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\list_iterator.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_node.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\USER\common\src\list_node.c</FilePath>
             </File>
           </Files>
         </Group>

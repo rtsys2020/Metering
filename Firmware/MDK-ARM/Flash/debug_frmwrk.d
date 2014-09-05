@@ -1,11 +1,11 @@
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\source\debug_frmwrk.c
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_libcfg_default.h
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc_types.h
-.\flash\debug_frmwrk.o: C:\Keil4.7\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\debug_frmwrk.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\debug_frmwrk.h
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_uart.h
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Core\Device\NXP\LPC177x_8x\Include\LPC177x_8x.h
-.\flash\debug_frmwrk.o: C:\Keil4.7\ARM\CMSIS\Include\core_cm3.h
-.\flash\debug_frmwrk.o: C:\Keil4.7\ARM\CMSIS\Include\core_cmInstr.h
-.\flash\debug_frmwrk.o: C:\Keil4.7\ARM\CMSIS\Include\core_cmFunc.h
+.\flash\debug_frmwrk.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\flash\debug_frmwrk.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\flash\debug_frmwrk.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
 .\flash\debug_frmwrk.o: ..\..\Common\lpc177x.lpc178x.library_2012.8.13\Drivers\include\lpc177x_8x_pinsel.h
